@@ -22,6 +22,9 @@ Tổng hợp link file data: (email tui để xin: 22520675@gm.uit.edu.vn)
 images reuslt: Chữa những image sẽ sử dụng trong báo cáo
 
 removing silence: script loại bỏ silence audio
+
 signal EDA: file EDA analyse âm thanh
+
 modelin_analysis: run model cũng như plot chart
+
 Preprocessing experiment and tuning: Để thử preprocessing và tune model
