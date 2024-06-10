@@ -2,11 +2,20 @@
 Machine learning classification for Fake Audio Detection
 
 
-Cái Removing Silence dùng để:
--  Tách silent audio ra khỏi audio data
--  Chuyển luôn về dạng wav luôn
+**** Chú Thích ****
+Về file data:
+frame_length_data: Chứa data sau khi preprocess với n_mfcc = 68 với từng frame length
+processed : Để chứa data đã được preprocessed, thành các mfcc features, save ở dạng json
+result_chart: Chứa data average (accuracy, f1-macro, precision,recall) sau 10 lần split stratified kfold (Dùng để vẽ chart)
+result_frame: chứa data average accuracy của các model dựa trên frame length (Dùng để vẽ chart)
+compare: Compare 2 file âm thanh fake và real (cùng source) để EDA
 
-Ngoài ra, ta có thể remove silence và convert nó về wav file tại link sau
-- https://colab.research.google.com/drive/123JR5f-BVmDpOg7kgGw-7RuAPa_vq5Z5?usp=sharing
+Tổng hợp link file data: (email tui để xin: 22520675@gm.uit.edu.vn)
 
-Nhớ clone về google drive để chạy nha mấy ba
+
+images reuslt: Chữa những image sẽ sử dụng trong báo cáo
+
+removing silence: script loại bỏ silence audio
+signal EDA: file EDA analyse âm thanh
+modelin_analysis: run model cũng như plot chart
+Preprocessing experiment and tuning: Để thử preprocessing và tune model
